@@ -1,0 +1,18 @@
+@import "../../assets/sass/variables";
+li.choice {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  background-color: $medium-grey-transparent;
+  line-height: 3.2rem;
+  text-align: center;
+  cursor: pointer;
+  &.active {
+    background-color: $light-grey;
+    color: $white;
+  }
+  &:hover {
+    background-color: $orange;
+    color: $white;
+  }
+}

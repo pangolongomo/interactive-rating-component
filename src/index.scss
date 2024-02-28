@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+@import "./assets/sass/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  color-scheme: light dark;
+  color: $light-grey;
+  background-color: $very-dark-blue;
+}
+
+a {
+  font-weight: 500;
+  color: inherit;
+  text-decoration: inherit;
+}
+a:hover {
+  color: inherit;
+}

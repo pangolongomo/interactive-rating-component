@@ -1,0 +1,73 @@
+@import "../../assets/sass/variables";
+.rater {
+  max-width: 400px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  background-color: $dark-blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .doing {
+    .star {
+      display: flex;
+      width: 3rem;
+      height: 3rem;
+      align-items: center;
+      justify-content: center;
+      background-color: $medium-grey-transparent;
+      border-radius: 50%;
+      img {
+        width: 1.2rem;
+        height: 1.2rem;
+      }
+    }
+    h1 {
+      font-size: 2rem;
+      color: $white;
+      margin: 1rem 0;
+    }
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem 0;
+    }
+    button {
+      width: 100%;
+      border-radius: 2rem;
+      padding: 0.8rem 0;
+      text-transform: uppercase;
+      background: $orange;
+      color: $white;
+      border: none;
+      &:hover {
+        background: $white;
+        color: $orange;
+      }
+    }
+  }
+  .done {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    .thanksImg {
+      width: 4rem;
+    }
+    h3 {
+      color: $orange;
+      background-color: $medium-grey-transparent;
+      padding: 0.3rem 1rem;
+      border-radius: 1rem;
+      font-size: 15px;
+      font-weight: normal;
+    }
+    h1 {
+      color: $white;
+    }
+  }
+}
